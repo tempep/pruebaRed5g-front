@@ -1,0 +1,90 @@
+main.container-table {
+  display: grid;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: "Open Sans", sans-serif;
+
+  & div.header {
+    width: 1280px;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 16px #d1e8ff74;
+
+    & img.logo-sufipay {
+      margin-left: 45%;
+      width: 83px;
+      height: 24px;
+      background: transparent;
+    }
+
+    & button.btnLogout {
+      border: 0;
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-bold) var(--unnamed-font-size-14) /
+        var(--unnamed-line-spacing-19) var(--unnamed-font-family-open-sans);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      text-align: center;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      gap: 10px;
+      margin-right: 10px;
+    }
+
+    & .logout-icon {
+      transform: rotate(270deg);
+    }
+  }
+
+  & div.title-disbursement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    height: 88px;
+    gap: 760px;
+
+    & h1 {
+      margin: 0;
+      justify-self: baseline;
+      font-size: 20px;
+      color: var(---413e4d-input-color);
+      font-weight: bolder;
+    }
+
+    & button.btnDownload {
+      width: 176px;
+      height: 48px;
+      border-radius: 24px;
+      background-color: var(--red_1_-dd3542);
+      border: 0;
+      font: var(--unnamed-font-style-normal) normal
+        var(--unnamed-font-weight-bold) var(--unnamed-font-size-14) /
+        var(--unnamed-line-spacing-19) var(--unnamed-font-family-open-sans);
+      letter-spacing: var(--unnamed-character-spacing-0);
+      color: var(--white_-ffffff);
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      justify-items: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+
+  div.table-filter-container {
+    
+    @media (max-width: 1279px) {
+      nav#pagination {
+        bottom: calc(50% - 500px);
+        left: calc(48% - 250px);
+        width: 500px;
+      }
+    }
+    
+  }
+  
+}

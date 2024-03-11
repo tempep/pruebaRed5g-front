@@ -1,0 +1,334 @@
+
+
+main.container-login {
+  @media (min-width: 1280px) {
+    img.bottom-left-corner {
+      display: block;
+      width: 60vw;
+      height: auto;
+      position: absolute;
+      top: 52%;
+      left: -15.5%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //esquina arriba derecha
+    img.top-right-corner {
+      display: block;
+      width: 58vw;
+      height: auto;
+      position: absolute;
+      top: -18%;
+      right: -25%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    // izquierda centro punto
+    img.left-center-point {
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 49%;
+      left: 24%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //derecha centro punto
+    img.right-center-point {
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 72%;
+      right: 24%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    //izquierda abajo arbol
+    img.left-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 81%;
+      right: 25%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //derecha arriba arbol
+    img.right-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 34.5%;
+      left: 25%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    //form login
+    form.form-login-card {
+      animation: move-bottom-to-top 1.5s linear forwards;
+    }
+  }
+
+  //Pantallas menores a 1280px
+  @media screen and (max-width: 1279px) {
+    //esquina abajo derecha
+    img.bottom-left-corner {
+      display: block;
+      width: 55vw;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: -15%;
+      animation: move-background-left 1s linear forwards;
+    }
+    //esquina arriba derecha
+    img.top-right-corner {
+      display: block;
+      width: 50%;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 70%;
+      animation: move-background-right 1s linear forwards;
+    }
+    // izquierda centro punto
+    img.left-center-point {
+      width: 8px;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 380px;
+      left: 300px;
+      animation: move-background-left 1s linear forwards;
+    }
+    //derecha centro punto
+    img.right-center-point {
+      width: 8px;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 550px;
+      right: 300px;
+      animation: move-background-right 1s linear forwards;
+    }
+    //derecha abajo arbol
+    img.left-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 600px;
+      right: 350px;
+      animation: move-background-left 1s linear forwards;
+    }
+    //izquierda arriba arbol
+    img.right-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 280px;
+      left: 320px;
+      animation: move-background-right 1s linear forwards;
+    }
+  }
+
+  // @media para tablets
+  @media ((min-width: 769px) and (max-width:1279px)) {
+    img.bottom-left-corner {
+      display: block;
+      width: 60vw;
+      height: auto;
+      position: absolute;
+      top: 52%;
+      left: -16%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //esquina arriba derecha
+    img.top-right-corner {
+      display: block;
+      width: 58vw;
+      height: auto;
+      position: absolute;
+      top: -18%;
+      right: -25%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    // izquierda centro punto
+    img.left-center-point {
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 49%;
+      left: 24%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //derecha centro punto
+    img.right-center-point {
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 72%;
+      right: 24%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    //izquierda abajo arbol
+    img.left-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 81%;
+      right: 25%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //derecha arriba arbol
+    img.right-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 34.5%;
+      left: 25%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    //form login
+    form.form-login-card {
+      animation: move-bottom-to-top 1.5s linear forwards;
+    }
+  }
+
+  // @media para celulares
+  @media (max-width: 768px) {
+    img.bottom-left-corner {
+      display: block;
+      width: 60vw;
+      height: auto;
+      position: absolute;
+      top: 52%;
+      left: -16%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //esquina arriba derecha
+    img.top-right-corner {
+      display: block;
+      width: 58vw;
+      height: auto;
+      position: absolute;
+      top: -18%;
+      right: -25%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    // izquierda centro punto
+    img.left-center-point {
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 49%;
+      left: 24%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //derecha centro punto
+    img.right-center-point {
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 72%;
+      right: 24%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    //izquierda abajo arbol
+    img.left-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 81%;
+      right: 25%;
+      animation: move-background-left 1.5s linear forwards;
+    }
+    //derecha arriba arbol
+    img.right-center-tree {
+      width: 5%;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 34.5%;
+      left: 25%;
+      animation: move-background-right 1.5s linear forwards;
+    }
+    //form login
+    form.form-login-card {
+      animation: move-bottom-to-top 1.5s linear forwards;
+    }
+  }
+
+}
+
+//Animaciones
+@keyframes move-background-left {
+  0% {
+    transform: translate(-100%, 100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(-80%, 80%);
+    opacity: 0.2;
+  }
+  40% {
+    transform: translate(-60%, 60%);
+    opacity: 0.4;
+  }
+  80% {
+    transform: translate(-20%, 20%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+}
+@keyframes move-background-right {
+  0% {
+    transform: translate(100%, -100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translate(80%, -80%);
+    opacity: 0.2;
+  }
+  40% {
+    transform: translate(60%, -60%);
+    opacity: 0.4;
+  }
+  80% {
+    transform: translate(20%, -20%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+}
+@keyframes move-bottom-to-top {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(80%);
+    opacity: 0.2;
+  }
+  40% {
+    transform: translateY(60%);
+    opacity: 0.4;
+  }
+  60% {
+    transform: translateY(40%);
+    opacity: 0.6;
+  }
+  80% {
+    transform: translateY(20%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}

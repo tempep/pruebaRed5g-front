@@ -1,0 +1,174 @@
+
+
+
+nav#pagination {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: fixed;
+    bottom: calc(50% - 500px);
+    left: calc(48% - 250px);
+    width: 500px;
+    border-radius: 24px 24px 0px 0px;
+    background-color: var(--white_-ffffff);
+    box-shadow: 0px 3px 16px #aaaaaa4d;
+    gap: 15%;
+
+
+    & li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    & button.page-button {
+      background-color: var(--white_-ffffff);
+      border: 0;
+  
+      & .right {
+        display: block;
+        position: absolute;
+        top: 35%;
+        left: 8%;
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+  
+      & .left {
+        display: block;
+        position: absolute;
+        top: 35%;
+        left: 45%;
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+    }
+  
+    & li.historial{
+        
+        & span:first-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 10px;
+          width: 48px;
+          height: 48px;
+          border-radius: 6px;
+          background-color: var(--white_-ffffff);
+          text-align: center;
+          border: 1px solid var(--azul-plomo-50-);
+        }
+        
+        & span:last-child {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 48px;
+          height: 48px;
+          border-radius: 6px;
+          text-align: center;
+        }
+      }
+  
+    div.select-pagination {
+      position: relative;
+      width: 176px;
+      height: 56px;
+      border: 1px solid var(--azul-plomo);
+      border-radius: 6px;
+      overflow: hidden;
+      align-self: center;
+  
+      &:hover i {
+        margin-top: 3px;
+      }
+  
+      & i {
+        position: absolute;
+        right: 20px;
+        top: calc(50% - 10px);
+        width: 12px;
+        height: 12px;
+        display: block;
+        border-left: 2px solid var(--red_1_-dd3542);
+        border-bottom: 2px solid var(--red_1_-dd3542);
+        transform: rotate(-45deg);
+        transition: all 0.25s ease;
+      }
+  
+      & label#label-select{
+          position: absolute;
+        pointer-events: none;
+        color: var(--azul-plomo);
+        left: 10px;
+        top: 50%;
+        font-size: 16px;
+        transform: translateY(-50%);
+        transition: 0.3s ease all;
+      }
+  
+      & select {
+        width: 176px;
+        height: 56px;
+        background-color: var(--white_-ffffff);
+        border: 0;
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: inherit;
+        color: #414141;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        cursor: pointer;
+        outline: 0;
+        position: relative;
+        transition: all 0.25s ease;
+        margin-left: 10px;
+        margin-top: 4px;
+  
+        &::placeholder {
+          color: transparent;
+        }
+  
+        &:focus + label.floating-label,
+        &:not(:placeholder-shown) + label.floating-label {
+          top: 10px;
+          font-size: 12px;
+          color: var(--azul-plomo);
+        }
+  
+      
+        &:focus + label#label-select,
+        &:not(:placeholder-shown) + label#label-select {
+          font-size: 0.75rem;
+          transform: translateY(-1.5rem);
+          background-color: var(--white_-ffffff);
+          padding: 0 0.2rem;
+          color: #007bff;
+          z-index: 1;
+        }
+  
+        &:not(:placeholder-shown) + label#label-select {
+          transform: translateY(-1.5rem);
+          background-color: var(--white_-ffffff);
+          padding: 0 0.2rem;
+          color: var(--azul-plomo);
+          z-index: 1;
+        }
+  
+        &::-ms-expand {
+          display: none;
+        }
+  
+        &::after {
+          color: var(--red_1_-dd3542);
+        }
+  
+        & option {
+          background-color: var(--white_-ffffff);
+          color: var(--red_1_-dd3542);
+          font-size: 16px;
+        }
+      }
+    }
+  }
